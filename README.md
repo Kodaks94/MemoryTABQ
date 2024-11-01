@@ -49,6 +49,7 @@ The memory-augmented approach enhances adaptability and efficiency in maze navig
 The maze is represented by a matrix \(M\) of binary values, where \(1\) denotes blocked cells and \(0\) denotes open cells. The maze is defined as having a discrete state space \(\mathbb{S}\) and action space \(\mathbb{A}\).
 
 - **Example Maze Representation**:
+```
 $$M=\begin{bmatrix}
 1 & 1 & 1 & 1 & 1 & 1 & 1\\
 1 & 0 & 1 & 0 & 0 & 0 & 1\\
@@ -58,7 +59,7 @@ $$M=\begin{bmatrix}
 1 & 0 & 0 & 0 & 0 & 0 & 1\\
 1 & 1 & 1 & 1 & 1 & 1 & 1
 \end{bmatrix}.$$
-
+```
 ## Maze Environment with Memory Modification
 
 A memory vector \(\Vec{\countValue}_{(y,x)}\) is created for each cell in the maze, allowing the agent to track previously taken actions. The agent's state representation is extended to include this memory vector, enhancing its ability to backtrack and explore alternative routes.
