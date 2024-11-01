@@ -16,11 +16,11 @@ Maze navigation is a fundamental problem in reinforcement learning (RL), providi
 
 The following mazes were used in the experiments:
 
-![Mazes](images/smallcorridor.pdf)
-![Long Corridor Maze](images/longcorridor.pdf)
-![T-shaped Maze](images/Tshaped.pdf)
-![Cross Maze](images/Crossmap.pdf)
-![Complex Looped Maze](images/complexlooped.pdf)
+![Mazes](images/smallcorridor.png)
+![Long Corridor Maze](images/longcorridor.png)
+![T-shaped Maze](images/Tshaped.png)
+![Cross Maze](images/Crossmap.png)
+![Complex Looped Maze](images/complexlooped.png)
 
 *Figure: Visual representation of the mazes used for the experiment.*
 
