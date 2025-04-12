@@ -2,6 +2,10 @@
 
 This repository explores a novel memory-augmented tabular Q-learning approach designed to navigate mazes with dynamic exit locations. This approach addresses significant challenges to traditional Q-learning algorithms by enhancing adaptability and efficiency in maze-solving agents without the computational complexity typically associated with recurrent neural network (RNN) structures.
 
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
 ## Overview
 
 Maze navigation is a fundamental problem in reinforcement learning (RL), providing a framework to investigate the exploration-exploitation trade-off. Traditional Q-learning methods often struggle in dynamic environments where conditions, such as exit locations, change. This project develops and validates a memory-augmented tabular Q-learning algorithm, allowing agents to adapt their strategies based on stored experiences.
